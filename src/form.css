@@ -1,0 +1,116 @@
+.personal {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  margin: 20px;
+}
+
+select {
+  margin: 20px;
+}
+
+#name,
+#mobile {
+  width: 300px;
+}
+
+#sex {
+  width: 200px;
+}
+
+#date {
+  width: 150px;
+}
+
+#govtidtype {
+  width: 150px;
+}
+#govtid {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+.personal__inputs {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.contact__inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+label[for='name'],
+label[for='mobile'] {
+  width: 50px;
+}
+
+label[for='date'],
+label[for='govtidtype'] {
+  width: 110px;
+}
+
+#govtid {
+  width: 300px;
+}
+
+label[for='emergencyno'] {
+  width: 120px;
+}
+
+#address,
+#country,
+#occupation {
+  width: 300px;
+}
+
+#state,
+#pincode {
+  width: 300px;
+}
+#city {
+  width: 220px;
+}
+.address__inputs {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  flex-wrap: wrap;
+}
+
+label[for='state'],
+label[for='pincode'] {
+  width: 50px;
+}
+
+.other__inputs {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  flex-wrap: wrap;
+}
+
+#occupation {
+  width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ccc;
+}
+
+button {
+  width: 130px;
+  height: 50px;
+  align-self: flex-end;
+  background-color: green;
+  color: white;
+}
